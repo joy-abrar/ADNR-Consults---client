@@ -1,0 +1,100 @@
+#cguBloc
+{
+	border: 2px solid grey;
+	border-radius: 25px ;
+	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
+	box-shadow: 2px 3px 3px 2px grey;
+	height: 55rem;
+	min-height: 55rem;
+	max-height: 55rem;
+	margin: auto;
+}
+
+#mentionBloc
+{
+	border: 2px solid grey;
+	border-radius: 25px ;
+	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
+	box-shadow: 2px 3px 3px 2px grey;
+	height: 55rem;
+	min-height: 55rem;
+	max-height: 55rem;
+	margin: auto;	
+}
+
+#rgpdBloc
+{
+	border: 2px solid grey;
+	border-radius: 25px ;
+	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
+	box-shadow: 2px 3px 3px 2px grey;
+	height: 55rem;
+	min-height: 55rem;
+	max-height: 55rem;
+	margin: auto;	
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 360px) 
+{
+	#cguBloc 
+	{
+		width: 95%;
+		min-width: 95%;
+		max-width: 95%;
+	}
+
+	#rgpdBloc
+	{
+		width: 95%;
+		min-width: 95%;
+		max-width: 95%;
+	}
+
+	#mentionBloc
+	{
+		width: 95%;
+		min-width: 95%;
+		max-width: 95%;
+	}
+
+	#returnButton 
+	{
+	    display: flex;
+	    justify-content: space-around;
+	    width: 30%;
+	    min-width: 30%;
+	    max-width: 30%;
+	    margin: auto;
+	    height: 3rem;
+	    min-height: 3rem;
+	    max-height: 3rem;
+	    font-family: segoe UI Light;
+	    color: grey;
+	    font-size: 18px;
+	    margin-bottom: 2%;
+	    margin-top: 2%;
+	    background: #87FDB1;
+	    border-radius: 5px;
+	    border: 2px solid #2FF8B1;
+	    text-decoration: none;
+	    font-family: segoe UI Light;
+	    text-align: center;
+	    align-items: center;
+	    align-content: center;
+	}
+
+	a
+	{
+		text-decoration: none;
+		color: blue;
+	}
+
+}

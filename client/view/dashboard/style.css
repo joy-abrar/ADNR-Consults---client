@@ -1,0 +1,5606 @@
+/* -------------------------- TINYMCE WARNING -------------------- */
+.tox.tox-silver-sink.tox-tinymce-aux
+{
+	display: none;
+}
+/* -------------------------- END TINYMCE WARNING -------------------- */
+
+/* -------------------------- TEXT SELECTOR NONE -------------------- */
+body 
+{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+/* ------------------------ END TEXT SELECTOR NONE ------------------- */
+
+/* ---------SEARCH ENGINE----------- */
+#mySearchBox 
+{
+  /*background-image: url('/css/searchicon.png');*/
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 20%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;  
+  margin-top: 2%;
+  margin-bottom: 12px;
+  margin-left: 70%;
+}
+
+#searchBox > form
+{
+	display: flex;
+	width: 100%;
+}
+/* --------- END SEARCH ENGINE----------- */
+
+/* --------------------------- TABLE ----------------------------------------*/
+table 
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td 
+{
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+tbody tr:nth-child(odd) 
+{
+  background: #eee;
+}
+/* -------------------------- END TABLE ----------------------------------*/
+/* ---------------------------- LOADING SCREEN ------------------------------ */
+
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader 
+{ 
+	display: none;  
+}
+.js #loader 
+{ 
+	display: block; 
+	position: absolute; 
+	left: 100px;
+	top: 0; 
+}
+.se-pre-con 
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/preloader.gif) center no-repeat #fff;
+}
+
+/* --------------------------END LOADING SCREEN ------------------------------*/
+
+
+
+
+
+/* ------------------------ SCROLL BAR PARAM -------------------------------*/
+::-webkit-scrollbar 
+{
+
+	width: 4px;
+  min-width: 5px;
+  max-width: 5px;
+  background: white;
+}
+
+::-webkit-scrollbar-track 
+{
+   background: white;
+}
+
+::-webkit-scrollbar-thumb 
+{
+  background: #2FF8B1;
+}
+
+/* ------------------------ END SCROLL BAR PARAM -----------------------*/
+#body
+{
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	font-family: segoe UI Light;
+}
+
+
+#topMenuNav
+{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #71c5a9;
+	width: 99.9%;
+	min-width: 99.9%;
+	max-width: 99.9%;
+	background: #2FF8B1;
+	height: 3.5rem;
+	min-height: 3.5rem;
+	max-height: 3.5rem;
+	margin-top: 0%;
+	left: 0;
+}
+
+#logoImage
+{
+	position: absolute;
+	top: 0px;
+	width: 8%
+}
+
+
+#menuIcon
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+  position: absolute;
+  margin-top: 1%;
+  left: 15%;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+}
+
+#usernameTopNav
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20%;
+	margin-top: 0%;
+}
+
+#usernameTopNavLink:hover
+{
+	color: grey;
+	transition-duration: 0.7s;
+}
+
+#usernameTopNavLink
+{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+  #wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #2FF8B1;
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+      }
+      .navbar li {
+        height: auto;
+        width: 135.8px;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: #2FF8B1;
+      }
+      .navbar a {
+        padding: 18px 0;
+        border-left: 1px transparent #ccc9c9;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .navbar li:hover,
+      a:hover {
+        background-color: none;
+      }
+      .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li:hover ul {
+        display: block;
+      }
+      .navbar li ul li {
+        background-color: #2FF8B1;
+      }
+      .navbar li ul li a {
+        border-left: 1px solid #2FF8B1;
+        border-right: 1px solid #2FF8B1;
+        border-top: 1px solid #2FF8B1;
+        border-bottom: 1px solid #2FF8B1;
+      }
+      .navbar li ul li a:hover {
+        background-color: #100C3A;
+      }
+
+#angleTopNav
+{
+	position: relative;
+	left: 5%;
+}
+
+#searchBox
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-top: 0.5%;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	
+}
+
+#searchBox > form > button
+{
+	width: 23 px;
+	height: 23px;
+}
+
+#searchBox > form > button > img
+{
+	width: 23 px;
+	height: 33px;
+	margin-left: 4%;
+}
+
+#searchBox > form > button
+{
+	background: transparent;
+	border: none;
+}
+
+#searchBoxTopNav
+{
+	align-items: center;
+	align-content: center;
+
+	width: 120%;
+	height: 2rem;
+	border: none;
+	border-radius: 4px;
+}
+
+
+#timeClock
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 2%;
+	width: 15%;
+	min-width: 15%;
+	max-width: 15%;
+}
+
+
+
+#clock
+{
+	display: flex;
+	flex-direction: row;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+}
+
+#time
+{
+	color: white;
+	font-size: 18px;
+}
+
+#day
+{
+	color: white;
+	font-size: 18px;
+}
+
+#date
+{
+	color: white;
+	font-size: 18px;
+}
+
+#agenda
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 4%;
+	margin-top: 1%;
+	color: white;
+
+}
+
+#agendaLink
+{
+	text-decoration: none;
+	color: white;
+}
+
+#agendaLink:hover
+{
+	color: grey;
+	transition-duration: 0.7s;
+}
+
+#username
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 12%;
+	margin-top: 1%;
+	width: 10%;
+	min-width: 10%;
+	max-width: 10%;
+	color: white;
+
+}
+
+#usernameLink
+{
+	text-decoration: none;
+	color: white;
+	font-family: seoge UI Light;
+	display: none;
+}
+
+#usernameLink:hover
+{
+	color:  grey;
+	transition-duration: 0.7s;
+}
+
+
+#logout
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 4%;
+	margin-top: 1%;
+	color: white;
+
+}
+
+#logoutLink
+{
+	text-decoration: none;
+	color: white;
+}
+
+#logoutLink:hover
+{
+	color: grey;
+	transition-duration: 0.7s;
+}
+
+/* ---------------------------------------------------------------------------- BEGIN SIDE MENUBAR -------------------------------------------------------------------------------*/
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+/*@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+*/
+.logo{
+  
+}
+
+.settings {
+  
+  height:73px; 
+  float:left;
+  background:url( https://s3.postimg.org/bqfooag4z/startific.jpg);
+  background-repeat:no-repeat;
+  width:250px;
+  margin:0px;
+ text-align: center;
+font-size:20px;
+font-family: 'Strait', sans-serif;
+
+}
+
+
+
+
+
+
+/* ScrolBar  */
+.scrollbar
+{
+
+height: 90%;
+width: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+.scrollbar:hover
+{
+
+height: 90%;
+width: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+/* Scrollbar Style */ 
+
+
+
+#style-1::-webkit-scrollbar-track
+{
+border-radius: 2px;
+}
+
+#style-1::-webkit-scrollbar
+{
+width: 5px;
+background-color: #F7F7F7;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #BFBFBF;
+}
+/* Scrollbar End */ 
+
+
+
+
+.fa-lg {
+font-size: 1em;
+  
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 55px;
+height: 36px;
+text-align: center;
+top:12px; 
+font-size:20px;
+font-family: seoge UI Light;
+
+}
+
+
+
+.main-menu:hover, nav.main-menu.expanded {
+width:250px;
+overflow:hidden;
+opacity:1;
+
+}
+
+.main-menu {
+background:#F7F7F7;
+position:absolute;
+top:6%;
+bottom:0;
+height:93%;
+left:0;
+width:55px;
+overflow:hidden;
+-webkit-transition:width .2s linear;
+transition:width .2s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+  opacity:1;
+}
+
+.main-menu>ul {
+margin:7px 0;
+
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+  
+
+
+}
+
+.main-menu li>a {
+position:relative;
+width:255px;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#8a8a8a;
+font-size: 13px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .14s linear;
+transition:all .14s linear;
+font-family: 'Strait', sans-serif;
+border-top:1px solid #f2f2f2;
+
+text-shadow: 1px 1px 1px  #fff;  
+}
+
+
+
+.main-menu .nav-icon {
+  
+position:relative;
+display:table-cell;
+width:55px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+
+}
+
+.main-menu .nav-text  {
+   
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+/*font-family: 'Titillium Web', sans-serif;*/
+font-family: segoe UI Light;
+}
+
+.main-menu .share {
+}
+
+
+
+.main-menu .fb-like {
+
+left: 180px;
+position:absolute;
+top: 15px;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+  
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+  
+}
+
+
+/* Logo Hover Property */
+
+
+.settings:hover, settings:focus {   
+  background:url( https://s17.postimg.org/74cl7s05b/logo_hover.jpg);
+  -webkit-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+-moz-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+-o-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0; 
+}
+
+.settings:active, settings:focus {   
+  background:url( https://s3.postimg.org/bqfooag4z/startific.jpg);
+  -webkit-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+-moz-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+-o-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0; 
+}
+
+
+a:hover,a:focus {
+text-decoration:none;
+border-left:0px solid #F7F7F7;
+
+
+
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+  
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+text-transform: uppercase;
+}
+
+
+
+
+/* Darker element side menu Start*/
+
+
+.darkerli
+{
+background-color:#ededed;
+text-transform:capitalize;  
+}
+
+.darkerlishadow
+{
+background-color:#ededed;
+text-transform:capitalize;  
+-webkit-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+box-shadow:         inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+}
+
+
+.darkerlishadowdown
+{
+background-color:#ededed;
+text-transform:capitalize;  
+-webkit-box-shadow: inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+box-shadow:         inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+}
+
+/* Darker element side menu End*/
+
+
+
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#00bbbb;
+text-shadow: 0px 0px 0px; 
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  /*font-family: 'Titillium Web';*/
+  font-family: segoe UI Light;
+  font-style: normal;
+  font-weight: 300;
+  /*src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(https://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');*/
+}
+
+/*------------------------------------------------------------------------------------- END SIDE MENUBAR -------------------------------------------------------------------------------------*/
+
+#mainAppearence
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#secondBloc
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 19vh;
+	margin-left: 10%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	height: 46rem;
+	min-height: 46rem;
+	max-height: 46rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;
+	background: white;
+}
+
+#secondSubBlocOne
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+  height: auto;
+  min-height: auto;
+  max-height: fit-content;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#secondSubBlocOne:hover
+{
+	background-color: none;
+}
+
+
+#secondSubBlocTwo
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 10rem;
+	min-height: 10rem;
+	max-height: 10rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#secondSubBlocTwo:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#secondSubBlocThree
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 10rem;
+	min-height: 10rem;
+	max-height: 10rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#secondSubBlocThree:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#secondSubBlocFour
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 10rem;
+	min-height: 10rem;
+	max-height: 10rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#secondSubBlocFour:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+
+#thirdBloc
+{
+	display: flex;
+  flex-direction: column;
+  height: 85vh;
+  min-height: 85vh;
+  max-height: 85vh;
+
+	position: initial;
+	margin-top: 20vh;
+	margin-left: 2%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 40%;
+	min-width: 40%;
+	max-width: 40%;
+	height: 75vh;
+	min-height: 75vh;
+	max-height: 75vh;
+	box-shadow: 3px -2px 8px 3px lightgrey;
+	background: white;
+}
+
+
+#thirdSubBlocOne
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 10rem;
+	min-height: 10rem;
+	max-height: 10rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#thirdSubBlocOne:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#thirdSubBlocTwo
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 10rem;
+	min-height: 10rem;
+	max-height: 10rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#thirdSubBlocTwo:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#thirdSubBlocThree
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 30%;
+	min-height: 30%;
+	max-height: 30%;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+
+#thirdSubBlocThree:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#forthBloc
+{
+	display: flex;
+  flex-direction: column;
+	position: initial;
+	margin-top: 20vh;
+	margin-left: 2%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	/*height: 35rem;
+	min-height: 35rem;
+	max-height: 35rem;*/
+	height: 65vh;
+	min-height: 65vh;
+	max-height: 65vh;
+
+	box-shadow: 3px -2px 8px 3px lightgrey;
+	background: white;
+}
+
+
+#forthSubBlocOne
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 11rem;
+	min-height: 11rem;
+	max-height: 11rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+
+#forthSubBlocOne:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#forthSubBlocTwo
+{
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 20rem;
+	min-height: 20rem;
+	max-height: 20rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#forthSubBlocTwo:hover
+{
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+#fifthBloc
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	margin-top: 10vh;
+	border: 2px solid #bbbbbb;
+	box-shadow: 3px 2px 3px 1px grey;
+	border-radius: 5px;
+	width: 60%;
+	min-width: 60%;
+	max-width: 60%;
+	height: 4rem;
+	min-height: 4rem;
+	max-height: 4rem;
+	background: white;
+}
+
+#fifthSubBlocOne
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin: auto;
+	margin-left: 4%;
+	margin-top: 1.5%;
+	/*border: 1px solid none;*/
+	border-radius: 5px;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	height: 2rem;
+	min-height: 2rem;
+	max-height: 2rem;
+	/*box-shadow: 3px -2px 8px 3px lightgrey;*/
+	border: 2px solid white;
+  box-shadow: 3px 2px 3px 1px grey;
+	text-align: center;
+	background-color: #ff9971;
+}
+
+
+#fifthSubBlocOne:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+
+#dashboardButton
+{
+	margin: auto;
+}
+
+
+#fifthSubBlocTwo
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin: auto;
+	margin-left: 2%;
+	margin-top: 1.5%;
+	/*border: 1px solid none;*/
+	border-radius: 5px;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	height: 2rem;
+	min-height: 2rem;
+	max-height: 2rem;
+	/*box-shadow: 3px -2px 8px 3px lightgrey;*/	
+	border: 2px solid white;
+  box-shadow: 3px 2px 3px 1px grey;
+	text-align: center;
+}
+
+#fifthSubBlocTwo:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+
+#rendezVousButton
+{
+	margin: auto;
+}
+
+
+#fifthSubBlocThree
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin: auto;
+	margin-left: 2%;
+	margin-top: 1.5%;
+	/*border: 1px solid none;*/
+	border-radius: 5px;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	height: 2rem;
+	min-height: 2rem;
+	max-height: 2rem;
+	/*box-shadow: 3px -2px 8px 3px lightgrey;*/
+	border: 2px solid white;
+  box-shadow: 3px 2px 3px 1px grey;	
+	text-align: center;
+}
+
+#fifthSubBlocThree:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+
+#documentsButton
+{
+	margin: auto;
+}
+
+#fifthSubBlocFour
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin: auto;
+	margin-left: 2%;
+	margin-top: 1.5%;
+	/*border: 1px solid none;*/
+	border-radius: 5px;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
+	height: 2rem;
+	min-height: 2rem;
+	max-height: 2rem;
+	/*box-shadow: 3px -2px 8px 3px lightgrey;*/
+	border: 2px solid white;
+  box-shadow: 3px 2px 3px 1px grey;
+	text-align: center;
+}
+
+#fifthSubBlocFour:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+
+#courriersButton
+{
+	margin: auto;
+}
+
+
+#sixthBloc
+{
+	visibility: hidden;
+	position: absolute;
+	margin-top: 20vh;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 40%;
+	min-width: 40%;
+	max-width: 40%;
+	height: 75vh;
+	min-height: 75vh;
+	max-height: 75vh;
+	box-shadow: 3px -2px 8px 3px lightgrey;
+	background: white;
+}
+
+
+#sixthSubBlocOne
+{
+	visibility: hidden;
+	position: initial;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 10rem;
+	min-height: 10rem;
+	max-height: 10rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+}
+
+#seventhBloc
+{
+	visibility: hidden;
+	position: absolute;
+	margin-top: 20vh;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 60%;
+	min-width: 60%;
+	max-width: 58%;
+	height: 40rem;
+	min-height: 40rem;
+	max-height: 40rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;
+	background: white;
+}
+
+#documentsBloc
+{
+	visibility: hidden;
+	position: absolute;
+	margin-top: 20vh;
+	border: 1px solid none;
+	border-radius: 5px;
+	width: 60%;
+	min-width: 60%;
+	max-width: 58%;
+	height: 40rem;
+	min-height: 40rem;
+	max-height: 40rem;
+	box-shadow: 3px -2px 8px 3px lightgrey;	
+	background: white;
+}
+
+#dashboardButton
+{
+	font-family: segoe UI Light;
+	text-decoration: none;
+	color: grey;
+	font-weight: 600;
+}
+
+
+#rendezVousButton
+{
+	font-family: segoe UI Light;
+	text-decoration: none;
+	color: grey;
+	font-weight: 600;
+}
+
+
+#documentsButton
+{
+	font-family: segoe UI Light;
+	text-decoration: none;
+	color: grey;
+	font-weight: 600;
+}
+
+#courriersButton
+{
+	font-family: segoe UI Light;
+	text-decoration: none;
+	color: grey;
+	font-weight: 600;
+}
+
+
+
+
+
+/* ------------------------------------------- TRIAL WARNING MESSAGE ------------------------------------- */
+.modal 
+{
+  display: flex; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: -100px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content 
+{
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop 
+{
+  from 
+  {
+  	top:-300px; opacity:0
+  } 
+  to 
+  {
+  	top:0; opacity:1
+  }
+}
+
+@keyframes animatetop 
+{
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close 
+{
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus 
+{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header 
+{
+  padding: 2px 16px;
+  background-color: #2FF8B1;
+  color: white;
+}
+
+.modal-body 
+{
+	padding: 2px 16px;
+}
+
+.modal-footer 
+{
+  padding: 2px 16px;
+  background-color: #2FF8B1;
+  color: white;
+}
+
+
+#buttons
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	background: #2FF8B1;
+	justify-content: center;
+}
+
+#clientTakingPackageButton
+{
+		display: flex;
+	  flex-direction: row;
+	  width: 10%;
+    min-width: 10%;
+    max-width: 10%;
+    height: 3rem;
+    min-height: 3rem;
+    max-height: 3rem;
+    font-family: segoe UI Light;
+    color: white;
+    font-size: 18px;
+    background: #100C3A;
+    border-radius: 5px;
+    border: 2px solid #2FF8B1;
+    text-decoration: none;
+    font-family: segoe UI Light;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#clientTakingPackageButton:hover
+{
+	/*background: #2FF8B1;*/
+	transition-duration: 0.7s;
+	color: white;
+	border: 1px solid black;
+}
+
+#clientCancelButton
+{
+		display: flex;
+	  flex-direction: row;
+	  width: 12%;
+    min-width: 12%;
+    max-width: 12%;
+    height: 3rem;
+    min-height: 3rem;
+    max-height: 3rem;
+    font-family: segoe UI Light;
+    color: white;
+    font-size: 18px;
+    background: #100C3A;
+    border-radius: 5px;
+    border: 2px solid #2FF8B1;
+    text-decoration: none;
+    font-family: segoe UI Light;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#clientCancelButton:hover
+{
+	/*background: #2FF8B1;*/
+	transition-duration: 0.7s;
+	color: white;
+	border: 1px solid black;
+}
+
+#clientCancelButton2
+{
+		display: flex;
+	  flex-direction: row;
+	  width: 12%;
+    min-width: 12%;
+    max-width: 12%;
+    height: 3rem;
+    min-height: 3rem;
+    max-height: 3rem;
+    font-family: segoe UI Light;
+    color: white;
+    font-size: 18px;
+    background: #100C3A;
+    border-radius: 5px;
+    border: 2px solid #2FF8B1;
+    text-decoration: none;
+    font-family: segoe UI Light;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#clientCancelButton2:hover
+{
+	/*background: #2FF8B1;*/
+	transition-duration: 0.7s;
+	color: white;
+	border: 1px solid black;
+}
+/* ------------------------------------------- END TRIAL WARNING MESSAGE -------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown
+{
+	display: none;
+}
+
+#setFont
+{
+	font-family: segoe UI Light;
+}
+
+#dashboardMenuBloc
+{
+	display: flex;
+	flex-direction: row;
+	min-width: 99%;
+	max-width: 99%;
+	min-height: 4rem;
+	max-height: 4rem;
+
+	margin: auto;
+	border-radius: 5px;
+
+  background-image: linear-gradient( to top right, #b9afaf , #bdb8b5);
+}
+
+#dashboardMenu
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	position: relative;
+	right: -50%;
+}
+
+#dashboardButtons
+{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: #786b6b;
+	font-size: 1.5rem;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin-top: 10px;
+	position: relative;
+	margin-right: 2rem;
+}
+
+#dashboardButtons:hover
+{
+	color: white;
+	transition-duration: 1s;
+
+}
+
+#welcomeUserName
+{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: #786b6b;
+	font-size: 1.5rem;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin-top: 10px;
+	position: relative;
+	right: 90%;
+}
+
+#welcomeUserName:hover
+{
+	color: white;
+	transition-duration: 1s;
+}
+
+#dashboardMenuOptions
+{
+
+	display: flex;
+	flex-direction: row;
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 4%;
+	width: 80%;
+	min-width: 80%;
+	max-width: 80%;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	padding: 2rem;
+	box-shadow: 2px 2px 2px 1px grey;
+	font-family: Segoe UI Light;
+
+}
+
+#dashboardsecondSubBlocOne
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 5px;
+	margin: auto;
+	width: 96%;
+	min-width: 96%;
+	max-width: 96%;
+	height: 100%;
+	min-height: 100%;
+	max-height: 80%;
+	text-decoration: none;
+	text-align: center;;
+	color: #6f746f;
+	font-family: seoge UI Light;
+	align-items: center;
+}
+
+#gendreParam
+{
+	color: black;
+	font-size: 40px;
+	position: initial;
+}
+
+#dashboardMenuOption
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 5px;
+	margin: auto;
+	width: 96%;
+	min-width: 96%;
+	max-width: 96%;
+	height: 100%;
+	min-height: 100%;
+	max-height: 80%;
+	text-decoration: none;
+	text-align: center;
+	color: grey;
+	font-family: seoge UI Light;
+}
+
+#dashboardMenuOption:hover
+{
+  transform: scale(1.02);
+	transition-duration: 1s;
+	background: none;
+}
+
+.disabled-link
+{
+	cursor: not-allowed;
+}
+
+#dashboardMenuOptionsImage
+{
+	width: 92%;
+	height: 80%;
+	min-height: 80%;
+	max-height: 80%;
+	margin: auto;
+}
+
+#dashboardMenuOptionsImageBloc
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#setFont
+{
+	font-family: Segoe UI Light;
+}
+
+
+
+@media screen and (min-width: 1440px) and (max-width: 1442px)
+{
+	#dashboardMenu 
+	{
+		right: -34%;
+	}
+	#welcomeUserName 
+	{
+		right: 48%;
+		font-size: 18px;
+	}
+
+	#dashboardButtons 
+	{
+		font-size: 18px;
+	}
+
+	#dashboardMenuOption 
+	{
+		font-size: 12px;
+	}
+
+
+	/* ---- DASHBOARD ----- */
+	#menuIcon
+	{
+		display: none;
+	}
+
+	#mySearchBox 
+	{
+		width: 30%;
+		margin-left: 58%;
+	}
+
+	tr
+	{
+		font-size: 12px;
+	}
+
+	#documentsBloc 
+	{
+		margin-top: 12%;
+		height: 31rem;
+    min-height: 31rem;
+    max-height: 31rem;
+	}
+
+	#mailOptionsItemDeco
+	{
+		font-size: 12px;
+	}
+
+	#logoImage 
+	{
+		width: 10%;
+		top: 1%;
+	}
+
+	#usernameTopNav 
+	{
+		margin-left: 10%;
+	}
+
+	.main-menu 
+	{
+		top: 8%;
+		height: 80%;
+	}
+
+	#searchBox
+	{
+		margin-left: 11%;
+		margin-top: 1%;
+	}
+
+	#timeClock 
+	{
+    width: 22%;
+    min-width: 22%;
+    max-width: 22%;
+	}
+
+	#agenda 
+	{
+		margin-top: 1.5%;
+	}
+
+	#username 
+	{
+		margin-top: 1.5%;
+	}
+
+	#logout 
+	{
+		margin-left: 5%;
+		margin-top: 1.5%;
+	}
+
+	#secondBloc 
+	{
+		margin-top: 11%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#secondSubBlocOne
+	{
+
+	}
+
+	#secondSubBlocTwo
+	{
+		
+	}
+
+	#secondSubBlocThree
+	{
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc 
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-top: 11%;
+	}
+
+
+
+	#thirdSubBlocOne 
+	{
+		
+	}
+
+	#thirdSubBlocTwo 
+	{
+		
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 10rem;
+		min-height: 10rem;
+		max-height: 10rem;
+		margin-bottom: 2%;
+
+	}
+
+	#forthBloc
+	{
+		margin-top: 11%;
+		height: 32rem;
+		min-height: 32rem;
+		max-height: 32rem;
+	}
+
+	#fifthBloc 
+	{
+		width: fit-content;
+		margin-top: 3%;
+	}
+
+	#fifthSubBlocOne
+	{
+		width: 22%;
+		min-width: 22%;
+		max-width: 22%;
+	}
+
+	#sixthBloc 
+	{
+		width: 60%;
+		min-width: 60%;
+		max-width: 60%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#sixthSubBlocOne
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-top: 3%;
+		margin-bottom: 0%;	
+	}
+
+	#seventhBloc
+	{
+		margin-top: 11%;
+		height: 31rem;
+    min-height: 31rem;
+    max-height: 31rem;
+	}
+
+		/* ---- END DASHBOARD ----- */
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1280px) 
+{
+	#dashboardMenu 
+	{
+		right: -32%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 43%;
+	}
+
+	.main-menu
+	{
+		top: 8%;
+		height: 105%;
+	}
+
+	#topMenuNav 
+	{
+		width: 99.4%;
+		min-width: 99.4%;
+		max-width: 99.4%;
+	}
+
+	#timeClock
+	{
+		width: 20%;
+		min-width: 20%;
+		max-width: 20%;
+		margin-top: -0.5%;
+	}
+
+	#logout
+	{
+		margin-left: 7%;
+	}
+
+	#secondBloc 
+	{
+		height: 38.5rem;
+		min-height: 38.5rem;
+		max-height: 38.5rem;
+	}
+
+	#thirdBloc 
+	{
+		height: 36rem;
+		min-height: 36rem;
+		max-height: 36rem;
+	}
+
+	#thirdSubBlocThree
+	{
+		height: 10rem;
+		min-height: 10rem;
+		max-height: 10rem;
+	}
+
+	#forthBloc 
+	{
+		width: 18.5%;
+		min-width: 18.5%;
+		max-width: 18.5%;
+	}
+
+
+	#fifthSubBlocOne
+	{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		margin-top: 0.9%;
+		margin-left: 0%;
+	}
+
+	#fifthSubBlocTwo
+	{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		margin-top: 0.9%;
+	}
+
+	#fifthSubBlocThree
+	{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		margin-top: 0.9%;
+	}
+
+	#fifthSubBlocFour
+	{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		margin-top: 0.9%;
+	}
+
+	#fifthBloc 
+	{
+		height: 5.4%;
+		min-height: 5.4%;
+		max-height: 5.4%;
+	}
+
+	#sixthBloc 
+	{
+		width: 60%;
+		min-width: 60%;
+		max-width: 60%;
+		height: 40rem;
+		min-height: 40rem;
+		max-height: 40rem;
+	}
+
+	.calsq.day
+	{
+		height: 100px;
+		min-height: 100px;
+		max-height: 100px;
+	}
+
+	.calsq.blank, .calsq.day 
+	{
+		height: 100px;
+	}
+
+	#documentsBloc 
+	{
+		height: 37.5rem;
+		min-height: 37.5rem;
+		max-height: 37.5rem;
+	}
+
+	#seventhBloc 
+	{
+		height: 37.5rem;
+		min-height: 37.5rem;
+		max-height: 37.5rem;
+	}
+
+	#mailBloc 
+	{
+		height: 35rem;
+		min-height: 35rem;
+		max-height: 35rem;
+	}
+
+	.navbar
+	{
+		width: 10%;
+		min-width: 10%;
+		max-width: 10%;
+	}
+	.navbar li 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1200px) 
+{
+	#dashboardMenu 
+	{
+		right: -30%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 35%;
+	}
+
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1080px) 
+{
+	#dashboardMenu 
+	{
+		right: -23%;
+	}
+	#welcomeUserName 
+	{
+		right: 27%;
+	}
+
+}
+
+
+@media screen and (min-width: 1260px) and (max-width: 1280px) 
+{
+	#dashboardMenu 
+	{
+		right: -32%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 43%;
+	}
+
+	#logoImage 
+	{
+    top: 10px;
+	}
+
+	#username 
+	{
+		margin-left: 8%;
+	}
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1200px) 
+{
+	#dashboardMenu 
+	{
+		right: -30%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 35%;
+	}
+
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1024px)
+{
+
+	#topMenuNav > div:nth-child(1)
+	{
+		display: flex;
+		flex-direction: row;
+		width: 13%;
+		min-width: 13%;
+		max-width: 13%;
+	}
+
+	#usernameTopNav
+	{
+		width: 16%;
+    min-width: 16%;
+    max-width: 16%;
+    margin-left: 0%;
+	}
+
+	#searchBox
+	{
+		margin-left: 0;
+		margin-top: 1%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#logout 
+	{
+		margin-left: 24%;
+		margin-top: 2%;
+	}
+
+	#dashboardMenu 
+	{
+		right: -34%;
+	}
+	#welcomeUserName 
+	{
+		right: 48%;
+		font-size: 18px;
+	}
+
+	#dashboardButtons 
+	{
+		font-size: 18px;
+	}
+
+	#dashboardMenuOption 
+	{
+		font-size: 12px;
+	}
+
+
+	/* ---- DASHBOARD ----- */
+	#menuIcon
+	{
+		display: none;
+	}
+
+	#mySearchBox 
+	{
+		width: 30%;
+		margin-left: 58%;
+	}
+
+	tr
+	{
+		font-size: 12px;
+	}
+
+	#documentsBloc 
+	{
+		margin-top: 12%;
+		height: 31rem;
+    min-height: 31rem;
+    max-height: 31rem;
+	}
+
+	#mailOptionsItemDeco
+	{
+		font-size: 12px;
+	}
+
+	#logoImage 
+	{
+		width: 10%;
+		top: 2%;
+	}
+
+	.main-menu 
+	{
+		top: 10%;
+		height: 140%;
+	}
+
+	#timeClock 
+	{
+    width: 22%;
+    min-width: 22%;
+    max-width: 22%;
+	}
+
+	#agenda 
+	{
+		margin-top: 2%;
+	}
+
+	#secondBloc 
+	{
+		margin-top: 11%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#secondSubBlocOne
+	{
+
+	}
+
+	#secondSubBlocTwo
+	{
+		
+	}
+
+	#secondSubBlocThree
+	{
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc 
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-top: 11%;
+	}
+
+
+
+	#thirdSubBlocOne 
+	{
+		
+	}
+
+	#thirdSubBlocTwo 
+	{
+		
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 10rem;
+		min-height: 10rem;
+		max-height: 10rem;
+		margin-bottom: 2%;
+
+	}
+
+	#forthBloc
+	{
+		margin-top: 11%;
+		height: 32rem;
+		min-height: 32rem;
+		max-height: 32rem;
+	}
+
+	#fifthBloc 
+	{
+		width: fit-content;
+		margin-top: 3%;
+	}
+
+	#fifthSubBlocOne
+	{
+		width: 22%;
+		min-width: 22%;
+		max-width: 22%;
+	}
+
+	#sixthBloc 
+	{
+		margin-top: 11%;
+		width: 60%;
+		min-width: 60%;
+		max-width: 60%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#sixthSubBlocOne
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-bottom: 2%;	
+	}
+
+	#seventhBloc
+	{
+		margin-top: 11%;
+		height: 31rem;
+    min-height: 31rem;
+    max-height: 31rem;
+	}
+
+		/* ---- END DASHBOARD ----- */
+}
+
+@media screen and (min-width: 900px) and (max-width: 912px) 
+{
+
+	#topMenuNav > div:nth-child(1)
+	{
+		display: flex;
+    flex-direction: row;
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 1%;
+		width: 12%;
+	}
+#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 45px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 319px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	  text-align: center;
+	  font-size: 30px;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn {
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 6%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		box-shadow: -1px -5px 14px 5px grey;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+		font-size: 42px;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	.main-menu
+	{
+		top: 5%;
+		height: 94%;
+	}
+
+	#mainAppearence
+	{
+		flex-direction: column;
+	}
+
+	#usernameTopNav 
+	{
+		margin-left: 0%;
+	}
+
+	#searchBox 
+	{
+		margin-left: 15%;
+		align-items: center;
+	}
+
+	#timeClock 
+	{
+		width: 25%;
+		min-width: 25%;
+		max-width: 25%;
+	}
+	#agenda
+	{
+		margin: auto;
+    margin-left: 4%;
+	}
+
+	#username 
+	{
+		display: none;
+	}
+
+	#logout 
+	{
+		margin: auto;
+    margin-left: 14%;
+	}
+
+	#thirdBloc
+	{
+		position: initial;
+    margin-top: 6%;
+    margin-left: 8%;
+    border: 1px solid none;
+    border-radius: 5px;
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    height: 48rem;
+    min-height: 48rem;
+    max-height: 48rem;
+    box-shadow: 3px -2px 8px 3px lightgrey;
+	}
+
+	#forthBloc
+	{
+		margin-top: 7%;
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    height: 48rem;
+    min-height: 48rem;
+    max-height: 48rem;
+    margin-left: 8%;
+    height: 25rem;
+    min-height: 25rem;
+    max-height: 25rem;
+	}
+
+	#fifthBloc 
+	{
+		width: 84%;
+		min-width: 84%;
+		max-width: 84%;
+		margin-left: 10%;
+		margin-top: 3%;
+		margin-bottom: 8%;
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 820px) 
+{
+
+#topMenuNav > div:nth-child(1)
+{
+	display: flex;
+  flex-direction: row;
+  width: 22%;
+  min-width: 22%;
+  max-width: 22%;
+}
+
+#logoImage 
+{
+  position: absolute;
+  top: 0px;
+  width: 21%;
+}
+
+.main-menu
+{
+	top: 5%;
+}
+
+#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 45px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 319px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	  text-align: center;
+	  font-size: 30px;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn {
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 6%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		box-shadow: -1px -5px 14px 5px grey;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+		font-size: 42px;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#thirdBloc 
+	{
+		margin-top: 7%;
+		margin-left: 7%;
+		width: 56%;
+		min-width: 56%;
+		max-width: 56% ;
+	}
+
+	#forthBloc
+	{
+		margin-top: 7%;
+		width: 30%;
+		min-width: 30%;
+		max-width: 30%;
+		height: 48rem;
+		min-height: 48rem;
+		max-height: 48rem;
+	}
+
+	#fifthBloc 
+	{
+		width: 86%;
+		min-width: 86%;
+		max-width: 86%;
+		margin-left: 7%;
+		display: none;
+	}
+
+	#usernameTopNav 
+	{
+		margin-left: 0%;
+		width: ;
+	}
+
+	#searchBox 
+	{
+		margin-left: 0%;
+	}
+
+	#timeClock 
+	{
+		width: 30%;
+		min-width: 30%;
+		max-width: 30%;
+	}
+
+	#agenda 
+	{
+		margin-top: 2.2%;
+	}
+	#username
+	{
+		margin-left: 0%;
+		display: none;
+	}
+
+	#logout 
+	{
+		margin-top: 2%;
+		margin-left: 17%;
+	}
+
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 768px) 
+{
+
+	#usernameTopNav 
+	{
+		margin-left: 11%;
+	}
+	#dashboardMenu 
+	{
+		right: -34%;
+	}
+	#welcomeUserName 
+	{
+		right: 48%;
+		font-size: 18px;
+	}
+
+	#dashboardButtons 
+	{
+		font-size: 18px;
+	}
+
+	#dashboardMenuOption 
+	{
+		font-size: 12px;
+	}
+
+
+	/* ---- DASHBOARD ----- */
+	#menuIcon
+	{
+		display: none;
+	}
+
+	#mySearchBox 
+	{
+		width: 36%;
+		margin-left: 50%;
+	}
+
+	tr
+	{
+		font-size: 12px;
+	}
+
+	#documentsBloc 
+	{
+		margin-top: 14%;
+		height: 20rem;
+    min-height: 20rem;
+    max-height: 20rem;
+	}
+
+	#mailOptionsItemDeco
+	{
+		font-size: 12px;
+	}
+
+	#logoImage 
+	{
+		width: 10%;
+		top: 2%;
+	}
+
+	.main-menu 
+	{
+		top: 6%;
+		height: 94%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    margin: 0;
+		margin-left: 12%;
+		margin-right: 0%;
+	}
+
+	#clock
+	{
+		margin: 0;
+		margin-left: 19%;
+		margin-top: 5%;
+		margin-right: 2%;
+	}
+
+	#agenda 
+	{
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+
+	#username 
+	{
+		margin-top: 2%;
+	}
+
+	#logout 
+	{
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	#secondBloc 
+	{
+		margin-top: 14%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#secondSubBlocOne
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#secondSubBlocTwo
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#secondSubBlocThree
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc 
+	{
+		margin-top: 7%;
+		margin-left: 7%;
+		width: 56%;
+		min-width: 56%;
+		max-width: 56% ;
+	}
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+			height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+		margin-bottom: 2%;
+
+	}
+
+	#forthBloc
+	{
+		margin-top: 7%;
+		width: 30%;
+		min-width: 30%;
+		max-width: 30%;
+		height: 48rem;
+		min-height: 48rem;
+		max-height: 48rem;
+	}
+
+	#fifthBloc 
+	{
+		width: 84%;
+		min-width: 84%;
+		max-width: 84%;
+		margin-left: 10%;
+		margin-top: 3%;
+		margin-bottom: 8%;
+		display: none;
+	}
+
+	#fifthSubBlocOne
+	{
+		width: 22%;
+		min-width: 22%;
+		max-width: 22%;
+		margin-top: 2.5%;
+	}
+
+		#fifthSubBlocTwo
+	{
+		margin-top: 2.5%;
+	}
+
+		#fifthSubBlocThree
+	{
+		margin-top: 2.5%;
+	}
+
+	#fifthSubBlocFour
+	{
+		margin-top: 2.5%;
+	}
+
+	#sixthBloc 
+	{
+		width: 60%;
+		min-width: 60%;
+		max-width: 60%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#sixthSubBlocOne
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-bottom: 2%;	
+	}
+
+	#seventhBloc
+	{
+		margin-top: 14%;
+		height: 20rem;
+    min-height: 20rem;
+    max-height: 20rem;
+	}
+
+		/* ---- END DASHBOARD ----- */
+}
+
+@media screen and (min-width: 500px) and (max-width: 540px) 
+{
+	#topMenuNav > div:nth-child(1)
+	{
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+		min-width: 20%;
+		max-width: 20%;
+	}
+
+	#usernameTopNav
+	{
+		margin: 0;
+		width: 25%;
+		min-width: 25%;
+		max-width: 25%;
+	}
+
+	#logoImage 
+	{
+		width: 19%;
+		top: 2%;
+	}
+
+	#timeClock 
+	{
+		margin-top: 2%;
+		margin-left: 3%;
+		text-align: center;
+    align-items: center;
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+	#clock
+	{
+		margin: 0;
+	}
+
+	#logout
+	{
+		margin-left: 7%;
+		align-items: center;
+	}
+
+	#dashboardMenu 
+	{
+		right: -16%;
+	}
+	#welcomeUserName 
+	{
+		right: 17%;
+		font-size: 14px;
+	}
+
+	#dashboardButtons 
+	{
+		font-size: 14px;
+		margin-right: 1rem;
+	}
+
+	#dashboardMenuOption 
+	{
+		font-size: 12px;
+		width: 82%;
+		min-width: 82%;
+		max-width: 82%;
+	}
+
+	.main-menu 
+	{
+		top: 8%;
+		height: 116%;
+	}
+
+	#mainAppearence
+	{
+		flex-direction: column;
+	}
+
+	#documentsBloc
+	{
+		overflow: scroll;
+	}
+
+	#thirdBloc 
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-left: 16%;
+	}
+
+	#forthBloc 
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-left: 16%;
+	}
+
+	#fifthBloc 
+	{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 420px) and (max-width: 425px) 
+{
+	#usernameTopNav 
+	{
+		margin-left: 11%;
+	}
+	#dashboardMenu 
+	{
+		right: -34%;
+	}
+	#welcomeUserName 
+	{
+		right: 48%;
+		font-size: 18px;
+	}
+
+	#dashboardButtons 
+	{
+		font-size: 18px;
+	}
+
+	#dashboardMenuOption 
+	{
+		font-size: 12px;
+	}
+
+
+	/* ---- DASHBOARD ----- */
+	#menuIcon
+	{
+		display: none;
+	}
+
+	#mySearchBox 
+	{
+		width: 36%;
+		margin-left: 50%;
+	}
+
+	tr
+	{
+		font-size: 12px;
+	}
+
+	#documentsBloc 
+	{
+		margin-top: 14%;
+		height: 20rem;
+    min-height: 20rem;
+    max-height: 20rem;
+	}
+
+	#mailOptionsItemDeco
+	{
+		font-size: 12px;
+	}
+
+	#logoImage 
+	{
+		width: 10%;
+		top: 2%;
+	}
+
+	.main-menu 
+	{
+		top: 8%;
+		height: 80%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    margin: 0;
+		margin-left: 12%;
+		margin-right: 0%;
+	}
+
+	#clock
+	{
+		margin: 0;
+		margin-left: 19%;
+		margin-top: 5%;
+		margin-right: 2%;
+	}
+
+	#agenda 
+	{
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+
+	#username 
+	{
+		margin-top: 2%;
+	}
+
+	#logout 
+	{
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	#secondBloc 
+	{
+		margin-top: 14%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#secondSubBlocOne
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#secondSubBlocTwo
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#secondSubBlocThree
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc 
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-top: 14%;
+	}
+
+
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+			height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+		margin-bottom: 2%;
+
+	}
+
+	#forthBloc
+	{
+		margin-top: 14%;
+		height: 20rem;
+		min-height: 20rem;
+		max-height: 20rem;
+	}
+
+	#fifthBloc 
+	{
+		width: 84%;
+		min-width: 84%;
+		max-width: 84%;
+		margin-left: 10%;
+		margin-top: 3%;
+		margin-bottom: 8%;
+	}
+
+	#fifthSubBlocOne
+	{
+		width: 22%;
+		min-width: 22%;
+		max-width: 22%;
+		margin-top: 2.5%;
+	}
+
+		#fifthSubBlocTwo
+	{
+		margin-top: 2.5%;
+	}
+
+		#fifthSubBlocThree
+	{
+		margin-top: 2.5%;
+	}
+
+	#fifthSubBlocFour
+	{
+		margin-top: 2.5%;
+	}
+
+	#sixthBloc 
+	{
+		width: 60%;
+		min-width: 60%;
+		max-width: 60%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+	}
+
+	#sixthSubBlocOne
+	{
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-bottom: 2%;	
+	}
+
+	#seventhBloc
+	{
+		margin-top: 14%;
+		height: 20rem;
+    min-height: 20rem;
+    max-height: 20rem;
+	}
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 414px) 
+{
+
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+
+	#body > nav
+	{
+		overflow-y: scroll;
+	}
+
+	#body > nav::-webkit-scrollbar 
+	{
+		width: 0px;
+	  min-width: 0px;
+	  max-width: 0px;
+	  background: white;
+	}
+	
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#topMenuNav
+	{
+		position: fixed;
+	}
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    margin-left: 10%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	#secondBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 2%;
+		height: 30rem;
+		min-height: 30rem;
+		max-height: 30rem;
+		margin-left: 13%;
+	}
+
+	#secondSubBlocOne 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocTwo 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocThree
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 16%;
+		margin-top: 16%;
+	}
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 12rem;
+		min-height: 12rem;
+		max-height: 12rem;
+	}
+
+	#forthBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 16%;
+		margin-top: 10%;
+	}
+
+	#fifthBloc
+	{
+		display: none;
+		flex-direction: row;
+		margin-left: 13%;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		flex-wrap: wrap;
+		height: 7rem;
+		min-height: 7rem;
+		max-height: 7rem;
+	}
+
+	#fifthSubBlocOne
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+	}
+
+	#dashboardButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocTwo
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+
+	#rendezVousButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocThree
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 3%;
+		margin-left: 4%;		
+	}
+
+
+	#documentsButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocFour
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;	
+		margin: auto;
+		margin-top: 3%;	
+		margin-left: 1%;
+	}
+
+	#courriersButton
+	{
+		margin: auto;
+	}
+
+	.main-menu
+	{
+		height: 93%;
+		top: 6.5%;
+		position: fixed;
+	}
+
+	#sixthBloc
+	{
+		display: none;
+	}
+
+	#sixthSubBlocOne
+	{
+		display: none;
+	}
+
+	#seventhBloc
+	{
+		display: none;
+	}
+
+	#documentsBloc
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 390px) and (max-width: 393px) 
+{
+	/*
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn {
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+	*/
+
+
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	#body > nav
+	{
+		position: fixed;
+		overflow-y: scroll;
+	}
+
+	#body > nav::-webkit-scrollbar 
+	{
+		width: 0px;
+	  min-width: 0px;
+	  max-width: 0px;
+	  background: white;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#topMenuNav
+	{
+		position: fixed;
+	}
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	#secondBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 2%;
+		height: 30rem;
+		min-height: 30rem;
+		max-height: 30rem;
+		margin-left: 13%;
+	}
+
+	#secondSubBlocOne 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocTwo 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocThree
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 16%;
+		margin-top: 17%;
+	}
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 12rem;
+		min-height: 12rem;
+		max-height: 12rem;
+	}
+
+	#forthBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 16%;
+		margin-top: 10%;
+	}
+
+	#fifthBloc
+	{
+		display: none;
+		flex-direction: row;
+		margin-left: 13%;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		flex-wrap: wrap;
+		height: 7rem;
+		min-height: 7rem;
+		max-height: 7rem;
+	}
+
+	#fifthSubBlocOne
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+	}
+
+	#dashboardButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocTwo
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+
+	#rendezVousButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocThree
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 3%;
+		margin-left: 4%;		
+	}
+
+
+	#documentsButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocFour
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;	
+		margin: auto;
+		margin-top: 3%;	
+		margin-left: 1%;
+	}
+
+	#courriersButton
+	{
+		margin: auto;
+	}
+
+	.main-menu
+	{
+		height: 92%;
+		top: 7%;
+		overflow-y: scroll;
+	}
+
+	#sixthBloc
+	{
+		display: none;
+	}
+
+	#sixthSubBlocOne
+	{
+		display: none;
+	}
+
+	#seventhBloc
+	{
+		display: none;
+	}
+
+	#documentsBloc
+	{
+		display:none;
+	}
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 375px) 
+{
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	#body > nav
+	{
+		overflow-y: scroll;
+	}
+
+	#body > nav::-webkit-scrollbar 
+	{
+		width: 0px;
+	  min-width: 0px;
+	  max-width: 0px;
+	  background: white;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#topMenuNav
+	{
+		margin-top: 0px;
+		margin-left: 2px;
+		width: 98.9%;
+    min-width: 98.9%;
+    max-width: 98.9%;
+    position: fixed;
+	}
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	#secondBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 2%;
+		height: 30rem;
+		min-height: 30rem;
+		max-height: 30rem;
+		margin-left: 13%;
+	}
+
+	#secondSubBlocOne 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocTwo 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocThree
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 17%;
+		margin-top: 17%;
+	}
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 12rem;
+		min-height: 12rem;
+		max-height: 12rem;
+	}
+
+	#forthBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 17%;
+		margin-top: 10%;
+	}
+
+	#fifthBloc
+	{
+		display: none;
+		flex-direction: row;
+		margin-left: 13%;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		flex-wrap: wrap;
+		height: 7rem;
+		min-height: 7rem;
+		max-height: 7rem;
+	}
+
+	#fifthSubBlocOne
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+	}
+
+	#dashboardButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocTwo
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+
+	#rendezVousButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocThree
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 3%;
+		margin-left: 4%;		
+	}
+
+
+	#documentsButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocFour
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;	
+		margin: auto;
+		margin-top: 3%;	
+		margin-left: 1%;
+	}
+
+	#courriersButton
+	{
+		margin: auto;
+	}
+
+	.main-menu
+	{
+		height: 90%;
+		top: 9%;
+		position: fixed;
+	}
+
+	#sixthBloc
+	{
+		display: none;
+	}
+
+	#sixthSubBlocOne
+	{
+		display: none;
+	}
+
+	#seventhBloc
+	{
+		display: none;
+	}
+
+	#documentsBloc
+	{
+		display:none;
+	}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 360px) 
+{
+
+	#body
+	{
+		width: 96%;
+		max-width: 96%;
+		min-width: 96%;
+		margin-bottom: 0rem;
+	}
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 5px;
+	  min-width: 5px;
+	  max-width: 5px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	#body > nav
+	{
+		overflow-y: scroll;
+	}
+
+	#body > nav::-webkit-scrollbar 
+	{
+		width: 0px;
+	  min-width: 0px;
+	  max-width: 0px;
+	  background: white;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+		display: none;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+	    width: 52%;
+	    min-width: 52%;
+	    max-width: 52%;
+	    margin-left: 0%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	.main-menu>ul 
+	{
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	#secondBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top:15%;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-left: 10vh;
+	}
+
+	#secondSubBlocOne 
+	{
+		position: inherit;
+		height: fit-content;
+		min-height: fit-content;
+		max-height: fit-content;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocTwo 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocThree
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 18vw;
+		margin-top: 19%;
+	}
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree
+	{
+		height: 12rem;
+		min-height: 12rem;
+		max-height: 12rem;
+	}
+
+	#forthBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 75vh;
+		min-height: 75vh;
+		max-height: 75vh;
+		margin-left: 18vw;
+		margin-top: 10vh;
+		margin-bottom: 2%;
+		overflow: scroll;
+	}
+
+	#fifthBloc
+	{
+		display: none;
+		flex-direction: row;
+		margin-left: 13%;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		flex-wrap: wrap;
+		height: 7rem;
+		min-height: 7rem;
+		max-height: 7rem;
+	}
+
+	#fifthSubBlocOne
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+	}
+
+	#dashboardButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocTwo
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+
+	#rendezVousButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocThree
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 3%;
+		margin-left: 4%;		
+	}
+
+
+	#documentsButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocFour
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;	
+		margin: auto;
+		margin-top: 3%;	
+		margin-left: 1%;
+	}
+
+	#courriersButton
+	{
+		margin: auto;
+	}
+
+	#topMenuNav
+	{
+		margin-top: 0%;
+		position: fixed;
+		width: 99%;
+		min-width: 99%;
+		max-width: 99%;
+	}
+
+	.main-menu
+	{
+		position: fixed;
+		height: 91%;
+		top: 8%;
+		overflow-y: scroll;
+	}
+
+	#sixthBloc
+	{
+		display: none;
+	}
+
+	#sixthSubBlocOne
+	{
+		display: none;
+	}
+
+	#seventhBloc
+	{
+		display: none;
+	}
+
+	#documentsBloc
+	{
+		display:none;
+	}
+
+	#clientTakingPackageButton
+	{
+		width: 45%;
+		min-width: 45%;
+		max-width: 45%;
+	}
+
+	#buttons
+	{
+		height: 9rem;
+		flex-direction: column;
+	}
+
+	#clientCancelButton
+	{
+		width: 42%;
+		min-width: 42%;
+		max-width: 42%;
+	}
+	#clientCancelButton2
+	{
+		width: 42%;
+		min-width: 42%;
+		max-width: 42%;	
+	}
+
+	.fa
+	{
+		height: 29px;
+		top: 5px;
+	}
+}
+
+@media screen and (min-width: 260px) and (max-width: 280px) 
+{
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 2%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 55%;
+    min-width: 55%;
+    max-width: 55%;
+    margin-left: 12%;
+	}
+
+	#clock
+	{
+		display: none;
+	}
+
+	#time
+	{
+		font-size: 14px;
+	}
+
+	#day
+	{
+		font-size: 14px;
+	}
+
+	#date
+	{
+		font-size: 14px;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+
+	#secondBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 2%;
+		height: 30rem;
+		min-height: 30rem;
+		max-height: 30rem;
+		margin-left: 13%;
+	}
+
+	#secondSubBlocOne 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocTwo 
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#secondSubBlocThree
+	{
+		position: inherit;
+		height: 8rem;
+		min-height: 8rem;
+		max-height: 8rem;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#thirdBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 20%;
+		margin-top: 10%;
+	}
+
+	#thirdSubBlocOne 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocTwo 
+	{
+		height: 6rem;
+		min-height: 6rem;
+		max-height: 6rem;
+	}
+
+	#thirdSubBlocThree 
+	{
+		height: 12rem;
+		min-height: 12rem;
+		max-height: 12rem;
+	}
+
+	#forthBloc
+	{
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		margin-top: 30%;
+		height: 29rem;
+		min-height: 29rem;
+		max-height: 29rem;
+		margin-left: 20%;
+		margin-top: 10%;
+	}
+
+	#fifthBloc
+	{
+		display: none;
+		flex-direction: row;
+		margin-left: 13%;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+		flex-wrap: wrap;
+		height: 7rem;
+		min-height: 7rem;
+		max-height: 7rem;
+	}
+
+	#fifthSubBlocOne
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+	}
+
+	#dashboardButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocTwo
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+
+	#rendezVousButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocThree
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;
+		margin-top: 3%;
+		margin-left: 4%;		
+	}
+
+
+	#documentsButton
+	{
+		margin: auto;
+	}
+
+	#fifthSubBlocFour
+	{
+		display: flex;
+		flex-direction: row;	
+		width: 40%;	
+		min-width: 40%;
+		max-width: 40%;
+		font-size: 12px;	
+		margin: auto;
+		margin-top: 3%;	
+		margin-left: 1%;
+	}
+
+	#courriersButton
+	{
+		margin: auto;
+	}
+
+	.main-menu
+	{
+		height: 128%;
+		top: 9%;
+	}
+
+	#sixthBloc
+	{
+		display: none;
+	}
+
+	#sixthSubBlocOne
+	{
+		display: none;
+	}
+
+	#seventhBloc
+	{
+		display: none;
+	}
+
+	#documentsBloc
+	{
+		display:none;
+	}
+
+}

@@ -1,0 +1,2211 @@
+/* -------------------------- TEXT SELECTOR NONE -------------------- */
+body 
+{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+/* ------------------------ END TEXT SELECTOR NONE ------------------- */
+/* ------------ SCROLLBAR ------------ */
+::-webkit-scrollbar 
+{
+
+	width: 4px;
+  min-width: 5px;
+  max-width: 5px;
+  background: white;
+}
+
+::-webkit-scrollbar-track 
+{
+   background: white;
+}
+
+::-webkit-scrollbar-thumb 
+{
+  background: #2FF8B1;
+}
+/* ------------ END SCROLLBAR ------------- */
+/* ---------------------------- LOADING SCREEN ------------------------------ */
+
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader 
+{ 
+	display: none;  
+}
+.js #loader 
+{ 
+	display: block; 
+	position: absolute; 
+	left: 100px; 
+	top: 0; 
+}
+.se-pre-con 
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/preloader.gif) center no-repeat #fff;
+}
+
+/* --------------------------END LOADING SCREEN ------------------------------*/
+
+#topMenuNav
+{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #71c5a9;
+	width: 99.9%;
+	min-width: 99.9%;
+	max-width: 99.9%;
+	background: #2FF8B1;
+	height: 3.5rem;
+	min-height: 3.5rem;
+	max-height: 3.5rem;
+	margin-top: -0.4%;
+	left: 0;
+	position: fixed;
+	top: 0.8%;
+}
+
+#logoImage
+{
+	position: absolute;
+	top: 0px;
+	width: 8%
+}
+
+
+#menuIcon
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+  position: absolute;
+  margin-top: 1%;
+  left: 15%;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+}
+
+#usernameTopNav
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20%;
+	margin-top: 0%;
+}
+
+#usernameTopNavLink:hover
+{
+	color: grey;
+	transition-duration: 0.7s;
+}
+
+#usernameTopNavLink
+{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+  #wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #2FF8B1;
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+      }
+      .navbar li {
+        height: auto;
+        width: 135.8px;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: #2FF8B1;
+      }
+      .navbar a {
+        padding: 18px 0;
+        border-left: 1px transparent #ccc9c9;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .navbar li:hover,
+      a:hover 
+      {
+        background-color: unset;
+      }
+      .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li:hover ul {
+        display: block;
+      }
+      .navbar li ul li {
+        background-color: #2FF8B1;
+      }
+      .navbar li ul li a {
+        border-left: 1px solid #2FF8B1;
+        border-right: 1px solid #2FF8B1;
+        border-top: 1px solid #2FF8B1;
+        border-bottom: 1px solid #2FF8B1;
+      }
+      .navbar li ul li a:hover {
+        background-color: #100C3A;
+      }
+
+#angleTopNav
+{
+	position: relative;
+	left: 5%;
+}
+
+#searchBox
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-top: 0.5%;
+	width: 15%;
+	min-width: 15%;
+	max-width: 15%;
+	
+}
+
+#searchBoxTopNav
+{
+	align-items: center;
+	align-content: center;
+
+	width: 120%;
+	height: 2rem;
+	border: none;
+	border-radius: 4px;
+}
+
+
+#timeClock
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 2%;
+	width: 15%;
+	min-width: 15%;
+	max-width: 15%;
+}
+
+
+
+#clock
+{
+	display: flex;
+	flex-direction: row;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+}
+
+#time
+{
+	color: white;
+	font-size: 18px;
+}
+
+#day
+{
+	color: white;
+	font-size: 18px;
+}
+
+#date
+{
+	color: white;
+	font-size: 18px;
+}
+
+#agenda
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 4%;
+	margin-top: 1%;
+	color: white;
+
+}
+
+#agendaLink
+{
+	text-decoration: none;
+	color: white;
+}
+
+#agendaLink:hover
+{
+	color: grey;
+	transition-duration: 0.7s;
+}
+
+#username
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 12%;
+	margin-top: 1%;
+	width: 10%;
+	min-width: 10%;
+	max-width: 10%;
+	color: white;
+
+}
+
+#usernameLink
+{
+	text-decoration: none;
+	color: white;
+	font-family: seoge UI Light;
+}
+
+#usernameLink:hover
+{
+	color:  grey;
+	transition-duration: 0.7s;
+}
+
+
+#logout
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 9%;
+	margin-top: 1%;
+	color: white;
+
+}
+
+#logoutLink
+{
+	text-decoration: none;
+	color: white;
+}
+
+#logoutLink:hover
+{
+	color: grey;
+	transition-duration: 0.7s;
+}
+
+/* ---------------------------------------------------------------------------- BEGIN SIDE MENUBAR -------------------------------------------------------------------------------*/
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+/*@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);*/
+
+.logo{
+  
+}
+
+.settings {
+  
+  height:73px; 
+  float:left;
+  background:url( https://s3.postimg.org/bqfooag4z/startific.jpg);
+  background-repeat:no-repeat;
+  width:250px;
+  margin:0px;
+ text-align: center;
+font-size:20px;
+font-family: 'Strait', sans-serif;
+
+}
+
+
+
+
+
+
+/* ScrolBar  */
+.scrollbar
+{
+
+height: 90%;
+width: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+.scrollbar:hover
+{
+
+height: 90%;
+width: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+/* Scrollbar Style */ 
+
+
+
+#style-1::-webkit-scrollbar-track
+{
+border-radius: 2px;
+}
+
+#style-1::-webkit-scrollbar
+{
+width: 5px;
+background-color: #F7F7F7;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #BFBFBF;
+}
+/* Scrollbar End */ 
+
+
+
+
+.fa-lg {
+font-size: 1em;
+  
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 55px;
+height: 36px;
+text-align: center;
+top:12px; 
+font-size:20px;
+font-family: seoge UI Light;
+
+}
+
+
+
+.main-menu:hover, nav.main-menu.expanded {
+width:250px;
+overflow:hidden;
+opacity:1;
+
+}
+
+.main-menu {
+background:#F7F7F7;
+position:fixed;
+top:7%;
+bottom:0;
+height:92%;
+left:0;
+width:55px;
+overflow:hidden;
+-webkit-transition:width .2s linear;
+transition:width .2s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+  opacity:1;
+}
+
+.main-menu>ul {
+margin:7px 0;
+
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+  
+
+
+}
+
+.main-menu li>a {
+position:relative;
+width:255px;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#8a8a8a;
+font-size: 13px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .14s linear;
+transition:all .14s linear;
+font-family: 'Strait', sans-serif;
+border-top:1px solid #f2f2f2;
+
+text-shadow: 1px 1px 1px  #fff;  
+}
+
+
+
+.main-menu .nav-icon {
+  
+position:relative;
+display:table-cell;
+width:55px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+
+}
+
+.main-menu .nav-text  {
+   
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+font-family: segoe UI Light;
+}
+
+.main-menu .share {
+}
+
+
+
+.main-menu .fb-like {
+
+left: 180px;
+position:absolute;
+top: 15px;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+  
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+  
+}
+
+
+/* Logo Hover Property */
+
+
+.settings:hover, settings:focus {   
+  background:url( https://s17.postimg.org/74cl7s05b/logo_hover.jpg);
+  -webkit-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+-moz-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+-o-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0; 
+}
+
+.settings:active, settings:focus {   
+  background:url( https://s3.postimg.org/bqfooag4z/startific.jpg);
+  -webkit-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+-moz-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+-o-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0; 
+}
+
+
+a:hover,a:focus {
+text-decoration:none;
+border-left:0px solid #F7F7F7;
+
+
+
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+  
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+text-transform: uppercase;
+}
+
+
+
+
+/* Darker element side menu Start*/
+
+
+.darkerli
+{
+background-color:#ededed;
+text-transform:capitalize;  
+}
+
+.darkerlishadow
+{
+background-color:#ededed;
+text-transform:capitalize;  
+-webkit-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+box-shadow:         inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+}
+
+
+.darkerlishadowdown
+{
+background-color:#ededed;
+text-transform:capitalize;  
+-webkit-box-shadow: inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+box-shadow:         inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+}
+
+/* Darker element side menu End*/
+
+
+
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#00bbbb;
+text-shadow: 0px 0px 0px; 
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: segoe UI Light;
+  font-style: normal;
+  font-weight: 300;
+  /*src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');*/
+}
+
+
+/* ------------------------------------------------------------------ END MENUBAR --------------------------------------------------------------------------------- */
+
+
+#settingsPageMain
+{
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	border: 1px solid limegreen;
+	border-radius: 5px;
+	box-shadow: 2px 4px 3px 4px grey;
+}
+
+#settingsForum
+{
+	font-family: segoe UI Light;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	background: ghostwhite;
+}
+
+#settingsTitle
+{
+	text-decoration: underline;
+	text-align: center;
+	justify-content: space-around;
+	font-family: segoe UI Light;
+}
+
+#settingsFormItems
+{
+	text-align: center;
+	margin: 5%;
+}
+
+#settingsFormInputDeco
+{
+	padding: 0.6%;
+  border: 1px solid grey;
+  box-shadow: 2px 4px 3px 4px lightsteelblue;
+  border-radius: 6px;
+  width: 16%;
+  font-family: segoe UI Light;
+}
+
+#settingsSubmitButton
+{
+	margin: 2%;
+  padding: 1%;
+  border: 1px transparent grey;
+  border-radius: 10px;
+  background: #87FDB1;
+  color: white;
+  font-family: segoe UI Light;
+}
+
+#settingsSubmitButton:hover
+{
+		background:#2FF8B1;		
+		transition-duration: 0.7s;
+}
+
+#settingsData
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#aboutUsBloc
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 75%;
+	min-width: 75%;
+	max-width: 75%;
+	margin-top: 15%;
+	border: 1px solid black;
+	box-shadow: 2px 4px 3px 2px grey;
+	background: white;
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1280px) 
+{
+	#dashboardMenu 
+	{
+		right: -32%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 43%;
+	}
+
+	#agendaParam 
+	{
+		height: 43rem;
+		min-height: 43rem;
+		max-height: 43rem;
+	}
+
+	#dashboardMenu 
+	{
+		right: -32%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 43%;
+	}
+
+	.main-menu
+	{
+		top: 8%;
+		height: 90%;
+	}
+
+	#topMenuNav 
+	{
+		width: 99.4%;
+		min-width: 99.4%;
+		max-width: 99.4%;
+	}
+
+	#timeClock
+	{
+		width: 20%;
+		min-width: 20%;
+		max-width: 20%;
+		margin-top: -0.5%;
+	}
+
+	#logout
+	{
+		margin-left: 3%;
+	}
+
+	#mailBloc 
+	{
+		height: 35rem;
+		min-height: 35rem;
+		max-height: 35rem;
+	}
+
+	.navbar
+	{
+		width: 10%;
+		min-width: 10%;
+		max-width: 10%;
+	}
+	.navbar li 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#seventhBloc
+	{
+		height: 35rem;
+		min-height: 35rem;
+		max-height: 35rem;
+	}
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1200px) 
+{
+	#dashboardMenu 
+	{
+		right: -30%;
+	}
+
+	#welcomeUserName 
+	{
+		right: 35%;
+	}
+
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1080px) 
+{
+	#dashboardMenu 
+	{
+		right: -15%;
+	}
+	#welcomeUserName 
+	{
+		right: 15%;
+	}
+
+
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 414px) 
+{
+
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	#dashboardButton
+	{
+		margin: auto;
+	}
+
+	.main-menu
+	{
+		height: 78%;
+	}
+}
+
+
+
+@media screen and (min-width: 390px) and (max-width: 393px) 
+{
+
+	#body 
+	{
+    width: 96%;
+    max-width: 96%;
+    min-width: 96%;
+	}
+	#topMenuNav 
+	{
+    margin-top: -2.6%;
+    position: fixed;
+    width: 99%;
+    min-width: 99%;
+    max-width: 99%;
+	}
+
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	.main-menu
+	{
+		height: 85%;
+		top: 10%;
+	}
+
+
+	#aboutUsBloc
+	{
+		width: 70%;
+    min-width: 70%;
+    max-width: 70%;
+    margin-top: 32%;
+	}
+
+}
+
+
+@media screen and (min-width: 1020px) and (max-width: 1024px)
+{
+	#dashboardMenu 
+	{
+		right: -34%;
+	}
+	#welcomeUserName 
+	{
+		right: 48%;
+		font-size: 18px;
+	}
+
+	#dashboardButtons 
+	{
+		font-size: 18px;
+	}
+
+	#dashboardMenuOption 
+	{
+		font-size: 12px;
+	}
+
+
+	/* ---- DASHBOARD ----- */
+	#menuIcon
+	{
+		display: none;
+	}
+
+	#mySearchBox 
+	{
+		width: 30%;
+		margin-left: 58%;
+	}
+
+	tr
+	{
+		font-size: 12px;
+	}
+
+	#documentsBloc 
+	{
+		margin-top: 12%;
+		height: 31rem;
+    min-height: 31rem;
+    max-height: 31rem;
+	}
+
+	#mailOptionsItemDeco
+	{
+		font-size: 12px;
+	}
+
+	#logoImage 
+	{
+		width: 10%;
+		top: 2%;
+	}
+
+	.main-menu 
+	{
+		top: 8%;
+		height: 80%;
+	}
+
+	#searchBox
+	{
+		margin-left: 5%;
+		margin-top: 1%;
+	}
+
+	#timeClock 
+	{
+    width: 22%;
+    min-width: 22%;
+    max-width: 22%;
+	}
+
+	#agenda 
+	{
+		margin-top: 2%;
+	}
+
+	#username 
+	{
+		margin-top: 2%;
+	}
+
+	#logout 
+	{
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 414px) 
+{
+
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#mainAppearence 
+	{
+    display: flex;
+    flex-direction: column;
+	}
+
+	#aboutUsBloc
+	{
+		width: 70%;
+    min-width: 70%;
+    max-width: 70%;
+    margin-top: 32%;
+	}
+}
+
+
+
+@media screen and (min-width: 260px) and (max-width: 280px) 
+{
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#aboutUsBloc
+	{
+		width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    margin-top: 32%;
+    margin-left: 19%;
+	}
+
+	.main-menu 
+	{
+		top: 10%;
+	}
+}
+
+
+
+
+
+@media screen and (min-width: 370px) and (max-width: 375px) 
+{
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+	#timeClock 
+	{
+		width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    margin-left: 15%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+
+	#aboutUsBloc
+	{
+		width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    margin-top: 32%;
+    margin-left: 19%;
+	}
+
+	.main-menu 
+	{
+		top: 10%;
+	}
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 360px) 
+{
+	/* ----- FRONT MENU & SIDE MENU ----- */
+	#body 
+	{
+    width: 96%;
+    max-width: 96%;
+    min-width: 96%;
+	}
+	#topMenuNav 
+	{
+    margin-top: -2.6%;
+    position: fixed;
+    width: 99%;
+    min-width: 99%;
+    max-width: 99%;
+	}
+
+	.main-menu > ul 
+	{
+    margin-top: 0rem;
+	}
+
+	.main-menu 
+	{
+    position: fixed;
+    height: 91%;
+    top: 8%;
+	}
+	/* ----- END FRONT MENU & SIDE MENU ----- */
+
+	/* -----SCROLL BAR PARAM-----*/
+	::-webkit-scrollbar 
+	{
+
+		width: 15px;
+	  min-width: 15px;
+	  max-width: 15px;
+	  background: white;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+	   background: white;
+	}
+
+	::-webkit-scrollbar-thumb 
+	{
+	  background: #2FF8B1;
+	}
+
+	/*----- END SCROLL BAR PARAM ------*/
+
+	#dashboardMenuBloc
+	{
+		display: none;
+	}
+
+	.dropbtn 
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	  left: 40%;
+	}
+
+	.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a 
+	{
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover 
+	{
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content 
+	{
+	  display: block;
+	  left: -45%;
+	}
+
+	.dropdown:hover .dropbtn 
+	{
+	  background-color: #3e8e41;
+	}
+
+	#dashboardMenu
+	{
+		flex-direction: column ;
+		right: -10%;
+		align-items: center;
+		text-align: center;
+	}
+
+	#dashboardMenuOptions
+	{
+		flex-direction: column;
+		position: relative;
+		left: 1%;
+		margin: 0;
+		margin-top:5% ;
+		width: 80%;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	#dashboardMenuOption 
+	{
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	#dashboardMenuOptionsImageBloc
+	{
+		margin-bottom: 10%;
+	}
+
+	#dashboardButtons
+	{
+		margin-right: 1rem;
+		font-size: 20px;
+	}
+
+	#welcomeUserName 
+	{
+		right: 10%;
+	}
+
+	#logoImage 
+	{
+		margin-top: 3%;
+		width: 28%;
+		min-width: 18%;
+	}
+
+	#menuIcon
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+
+	#agenda
+	{
+		display: none;
+	}
+
+	#clock
+	{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	#time
+	{
+		font-size: 16px;
+	}
+
+	#day
+	{
+		font-size: 16px;
+	}
+
+	#date
+	{
+		font-size: 16px;
+	}
+
+	#logout 
+	{
+		    margin-left: 12%;
+		    margin-top: 4%;
+	}
+
+	#username
+	{
+		display: none;
+	}
+
+
+	#timeClock 
+	{
+	  width: 48%;
+	  min-width: 48%;
+	  max-width: 48%;
+	  margin-left: 12%;
+	}
+
+	#searchBox
+	{
+		display: none;
+	}
+
+	#aboutUsBloc
+	{
+		width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+    margin-top: 19%;
+    margin-left: 15%;
+    height: 41rem
+	}
+}
